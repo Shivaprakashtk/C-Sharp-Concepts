@@ -10,6 +10,11 @@ namespace Abstract_Classes_And_Methods
     {
         static void Main(string[] args)
         {
+            AbstractImplementation abstractImplementation;
+            abstractImplementation = new AbstractImplementation(2);
+            abstractImplementation.GetArea();
+
+
 
         }
     }
